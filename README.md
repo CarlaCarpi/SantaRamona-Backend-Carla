@@ -28,8 +28,8 @@ La API soporta control de acceso según rol del usuario.
 Ejemplo de comportamiento:
 
 - **Administrador** → Acceso total
-- **Operador** → Acceso parcial
-- **Consulta** → Solo lectura
+- **Colaborador** → Acceso parcial
+- **Lector** → Solo lectura
 
 Las restricciones se aplican desde los controladores mediante autorización.
 
